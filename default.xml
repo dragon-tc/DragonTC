@@ -20,5 +20,6 @@
   <project path="isl" name="isl-current" remote="sm" revision="master" />
   <project path="cloog" name="cloog-current" remote="sm" revision="0.18.3" />
   <project path="cloog/isl" name="isl-current" remote="sm" revision="master" />
-  <project path="cloog/osl" name="osl-saber" remote="sm" revision="master" />
+  <project path="cloog/osl" name="osl-saber"  remote="sm" revision="master" />
+  <project path="libffi" name="atgreen/libffi" remote="gh" revision="master" />
 </manifest>
