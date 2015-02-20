@@ -7,12 +7,12 @@
   <remote name="gh"
           fetch="https://github.com/" />
   <remote name="llvm"
-          fetch="http://llvm.org/git/ />
+          fetch="http://llvm.org/git/" />
           
-  <default  remote="fr"
-            revison="release_35"
-            sync-c="true"
-            sync-j="8" />
+  <default remote="fr"
+           revison="release_35"
+           sync-c="true"
+           sync-j="8" />
            
   <project path="llvm" name="llvm" />
   <project path="llvm/tools/clang" name="clang" />
