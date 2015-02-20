@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="fr"
+          fetch="https://github.com/frap129/" />
+  <remote name="cz"
+          fetch="git://repo.or.cz/" />
+  <remote name="gh"
+          fetch="https://github.com/" />
+  <remote name="llvm"
+          fetch="http://llvm.org/git/ />
+          
+  <default remote="fr"
+           revison="release_35"
+           sync-c="true"
+           sync-j="8" />
+           
+  <project path="llvm" name="llvm" />
+  <project path="llvm/tools/clang" name="clang" />
+  <project path="llvm/tools/polly" name="polly.git" remote="llvm" />
+  <project path="isl" name="isl.git" remote="cz" revison="isl-0.14" />
+  <project path="cloog" name="cloog.git" remote="cz" revison="cloog-0.18.3" />
+</manifest>
