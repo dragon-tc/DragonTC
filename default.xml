@@ -3,7 +3,7 @@
   <remote name="fr"
           fetch="https://github.com/frap129/" />
   <remote name="cz"
-          fetch="git://repo.or.cz/" />
+          fetch="http://repo.or.cz/" />
   <remote name="gh"
           fetch="https://github.com/" />
   <remote name="llvm"
