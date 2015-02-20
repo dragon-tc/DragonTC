@@ -17,6 +17,6 @@
   <project path="llvm" name="llvm" />
   <project path="llvm/tools/clang" name="clang" />
   <project path="llvm/tools/polly" name="polly.git" remote="llvm" />
-  <project path="isl" name="isl" remote="cz" revision="isl-0.14" />
-  <project path="cloog" name="cloog" remote="cz" revision="cloog-0.18.3" />
+  <project path="isl" name="isl.git" remote="cz" revision="isl-0.14" />
+  <project path="cloog" name="cloog.git" remote="cz" revision="cloog-0.18.3" />
 </manifest>
