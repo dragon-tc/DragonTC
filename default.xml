@@ -17,6 +17,7 @@
   <project path="llvm" name="llvm" />
   <project path="llvm/tools/clang" name="clang" />
   <project path="llvm/tools/polly" name="polly" />
+  <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" revision="master" />
   <project path="isl" name="ISL.git" remote="sm" revision="master" />
   <project path="llvm/tools/libffi" name="atgreen/libffi" remote="gh" revision="master" />
