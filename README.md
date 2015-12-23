@@ -16,6 +16,10 @@ $ cd dtc
 $ repo init -u https://github.com/dragon-tc/DragonTC -b master
 $ repo sync -j(# of cores) -c -f
 ```
+For Debian and Ubuntu:
+```
+sudo aptitude install build-essential git binfmt-support libllvm-3.6-ocaml-dev llvm-3.6 llvm-3.6-dev llvm-3.6-runtime cmake automake autoconf python m4 gcc libtool zlib1g-dev
+```
 
 And run the following to build your desired toolchain:
 ```
