@@ -25,4 +25,4 @@ And run the following to build your desired toolchain:
 $ cd build
 $ . version
 ```
-Where "version" is 3.5, 3.6, or 3.7.
+Where "version" is 3.5, 3.6. 3.7, or 3.8.
