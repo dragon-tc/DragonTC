@@ -19,9 +19,6 @@
   <project path="llvm/tools/polly" name="polly" />
   <project path="build" name="llvm-build" revision="master" />
   <project path="isl" name="ISL.git" remote="sm" revision="master" />
-  <project path="cloog" name="CLOOG.git" remote="sm" revision="0.18.4" />
-  <project path="cloog/isl" name="ISL.git" remote="sm" revision="master" />
-  <project path="cloog/osl" name="OSL.git"  remote="sm" revision="master" />
   <project path="llvm/tools/libffi" name="atgreen/libffi" remote="gh" revision="master" />
   <project path="llvm/tools/binutils" name="BinUtils.git" remote="sm" revision="2.25" />
 </manifest>
