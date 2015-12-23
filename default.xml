@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="fr"
-          fetch="https://github.com/frap129/" />
+  <remote name="dtc"
+          fetch="https://github.com/dragon-tc/" />
   <remote name="sm"
           fetch="https://gitlab.com/SaberMod/" />
   <remote name="gh"
@@ -9,8 +9,8 @@
   <remote name="llvm"
           fetch="http://llvm.org/git/" />
           
-  <default remote="fr"
-           revision="release_35"
+  <default remote="dtc"
+           revision="release_36"
            sync-c="true"
            sync-j="8" />
            
