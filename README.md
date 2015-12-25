@@ -1,6 +1,6 @@
 ![alt text](http://imgur.com/gFcFcZ7.png)
 -----------------
-DragonTC is a build system for compiling custom clang toolchains. These toolchains contain the latest AOSP patches(Where applicable) and things not included in AOSP clang, such as LTO from the latest binutils, and Polly compiled and automatically linked into tools. DragonTC compilers are also built with -O3 in order to reduce compile time for ROMs.
+DragonTC is a build system for compiling custom clang toolchains. These toolchains contain the latest AOSP patches(where applicable) and things not included in AOSP clang, such as LTO and Gold plugins, Polly compiled and automatically linked into tools, improved krait optimizations (-mcpu=krait2), and annoying flags such as -Werror, -Wfatal-errors, and -Weverything internally disabled. DragonTC compilers are also built with -O3, -pthread, and -fopenmp in order to reduce compile time when used for ROMs.
 
 ###Why use custom Clang?
 ------------------------
