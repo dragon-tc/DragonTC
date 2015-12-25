@@ -18,7 +18,9 @@
   <project path="llvm/tools/clang" name="clang" />
   <project path="llvm/tools/polly" name="polly" />
   <project path="llvm/projects/compiler-rt" name="compiler-rt" />
+  <project path="llvm/projects/libcxxabi" name="libcxxabi" />
   <project path="llvm/projects/libcxx" name="libcxx" />
+  <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" revision="master" />
   <project path="isl" name="ISL.git" remote="sm" revision="master" />
