@@ -23,6 +23,9 @@ sudo aptitude install build-essential git git-svn binfmt-support libllvm-3.6-oca
 And run the following to build your desired toolchain:
 ```
 $ cd build
-$ . version
+$ ./version
 ```
-Where "version" is 3.6. 3.7, or 3.8.
+Where "version" is 3.6. 3.7, or 3.8. To optimize the toolchain for your local system, run with the 'opt' argument. Example:
+```
+$ ./3.7 opt
+```
