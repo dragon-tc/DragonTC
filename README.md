@@ -25,7 +25,15 @@ And run the following to build your desired toolchain:
 $ cd build
 $ ./version
 ```
-Where "version" is 3.6. 3.7, or 3.8. To optimize the toolchain for your local system, run with the 'opt' argument. Example:
+Where "version" is 3.6. 3.7, or 3.8.  
+To optimize the toolchain for your local system, run with the 'opt' argument. Example:
 ```
 $ ./3.7 opt
 ```
+###How do use DragonTC in AOSP?
+-------------------------------
+* Either clone a prebuilt or build your own toolchain and place it in prebuilts/clang/linux-x86/host/your_version (3.7.1 is the prefered version)
+* Change the version in build/core/clang/config.mk to reflect the directory you placed it in. 
+* Either clone ours, or cherry-pick our changes to [prebuilts/ndk](https://github.com/dragon-tc/android_prebuilts_ndk/commits/master) and [frameworks/rs](https://github.com/dragon-tc/android_frameworks_rs/commits/master).
+* **[WIP]** Cherry-pick our DragonTC support commit in build.
+
