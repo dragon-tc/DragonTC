@@ -35,5 +35,5 @@ $ ./3.7 opt
 * Either clone a prebuilt or build your own toolchain and place it in prebuilts/clang/linux-x86/host/your_version (3.7.1 is the prefered version)
 * Change the version in build/core/clang/config.mk to reflect the directory you placed it in. 
 * Either clone ours, or cherry-pick our changes to [prebuilts/ndk](https://github.com/dragon-tc/android_prebuilts_ndk/commits/master) and [frameworks/rs](https://github.com/dragon-tc/android_frameworks_rs/commits/master).
-* **[WIP]** Cherry-pick our DragonTC support commit in [build](https://github.com/dragon-tc/android_build/commit/6454a23c2281d80c533f962c7301990c7929aa99).
+* **[WIP]** Cherry-pick our DragonTC support commit in [build](https://github.com/dragon-tc/android_build/commit/7724b3e7aea0d7209ccaf1bd80bd9dbc4ba16d23).
 
