@@ -22,6 +22,6 @@
   <project path="llvm/projects/libcxx" name="libcxx" />
   <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
-  <project path="build" name="build" revision="master" />
+  <project path="build" name="build" revision="mm" />
   <project path="llvm/tools/binutils" name="BinUtils.git" remote="sm" revision="2.26" />
 </manifest>
