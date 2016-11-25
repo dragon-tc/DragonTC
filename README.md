@@ -12,7 +12,7 @@ It's simple! Run the following commands in bash to get set up:
 ```
 $ mkdir dtc
 $ cd dtc
-$ repo init -u https://github.com/dragon-tc/DragonTC -b master
+$ repo init -u https://github.com/dragon-tc/DragonTC -b mm
 $ repo sync -j(# of cores) -c -f
 ```
 For Debian and Ubuntu:
@@ -34,6 +34,6 @@ $ ./3.7 opt
 -------------------------------
 * Either clone a prebuilt or build your own toolchain and place it in prebuilts/clang/linux-x86/host/your_version (3.7.1 is the prefered version)
 * Change the version in build/core/clang/config.mk to reflect the directory you placed it in. 
-* Either clone ours, or cherry-pick our changes to [prebuilts/ndk](https://github.com/dragon-tc/android_prebuilts_ndk/commits/master) and [frameworks/rs](https://github.com/dragon-tc/android_frameworks_rs/commits/master).
+* Either clone ours, or cherry-pick our changes to [prebuilts/ndk](https://github.com/dragon-tc/android_prebuilts_ndk/commits/mm) and [frameworks/rs](https://github.com/dragon-tc/android_frameworks_rs/commits/mm).
 * **[WIP]** Cherry-pick our DragonTC support commit in [build](https://github.com/dragon-tc/android_build/commit/c020e9a1abb543fc687ccd49bb1d1ab95acc75cf).
 
