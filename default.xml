@@ -2,8 +2,8 @@
 <manifest>
   <remote name="dtc"
           fetch="https://github.com/dragon-tc/" />
-  <remote name="sm"
-          fetch="https://gitlab.com/SaberMod/" />
+  <remote name="ln"
+          fetch="https://git.linaro.org/" />
   <remote name="gh"
           fetch="https://github.com/" />
   <remote name="llvm"
@@ -23,5 +23,5 @@
   <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" revision="master" />
-  <project path="llvm/tools/binutils" name="BinUtils.git" remote="sm" revision="2.26" />
+  <project path="llvm/tools/binutils" name="toolchain/binutils-gdb.git/" remote="ln" revision="binutils-2_27-branch" />
 </manifest>
