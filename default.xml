@@ -10,7 +10,7 @@
           fetch="http://llvm.org/git/" />
           
   <default remote="dtc"
-           revision="release_38"
+           revision="release_40"
            sync-c="true"
            sync-j="8" />
            
