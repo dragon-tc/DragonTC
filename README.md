@@ -25,12 +25,12 @@ And run the following to build your desired toolchain:
 $ cd build
 $ ./version
 ```
-Where "version" is 3.6. 3.7, 3.8, or 3.9.  
+Where "version" is 5.0 6.0 or 7.0
 To optimize the toolchain for your local system, run with the 'opt' argument. Example:
 ```
-$ ./3.7 opt
+$ ./7.0 opt
 ```
-###How do use DragonTC in AOSP?
+###How do use DragonTC in AOSP? -OUT OF DATE-
 -------------------------------
 * Either clone a prebuilt or build your own toolchain and place it in prebuilts/clang/linux-x86/host/your_version (3.7.1 is the prefered version)
 * Change the version in build/core/clang/config.mk to reflect the directory you placed it in. 
