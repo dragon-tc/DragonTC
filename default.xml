@@ -25,5 +25,5 @@
   <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" revision="master" />
-  <project path="llvm/tools/binutils" name="toolchain/binutils-gdb.git/" remote="ln" revision="binutils-2_27-branch" />
+  <project path="llvm/tools/binutils" name="mydongistiny/binutils" remote="gh" revision="2.30" />
 </manifest>
