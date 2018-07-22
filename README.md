@@ -17,7 +17,7 @@ $ repo sync -j(# of cores) -c -f
 ```
 For Debian and Ubuntu:
 ```
-sudo aptitude install build-essential git git-svn bc binfmt-support libllvm-3.6-ocaml-dev llvm-3.6 llvm-3.6-dev llvm-3.6-runtime cmake automake autogen autoconf autotools-dev libtool shtool python m4 gcc libtool zlib1g-dev
+sudo apt-get install build-essential git git-svn bc binfmt-support libllvm-3.6-ocaml-dev llvm-3.6 llvm-3.6-dev llvm-3.6-runtime cmake automake autogen autoconf autotools-dev libtool shtool python m4 gcc libtool zlib1g-dev libomp-dev
 ```
 
 And run the following to build your desired toolchain:
