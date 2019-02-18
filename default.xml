@@ -25,5 +25,5 @@
   <project path="llvm/projects/libunwind" name="libunwind" />
   <project path="llvm/projects/openmp" name="openmp" />
   <project path="build" name="build" revision="master" />
-  <project path="llvm/tools/binutils" name="mydongistiny/binutils" remote="gh" revision="2.30" />
+  <project path="llvm/tools/binutils" name="mydongistiny/binutils" remote="gh" revision="2.32" />
 </manifest>
