@@ -26,7 +26,7 @@ Google has been slowly moving away from GCC for a while now, so we believe that 
     cd build
     ./version
     ```
-    Where "version" is `5.0``6.0` or `7.0`.
+    Where "version" is `5.0`, `6.0` or `7.0`.
 
 - To optimize the toolchain for your local system, run with the 'opt' argument. Example:
     ```
